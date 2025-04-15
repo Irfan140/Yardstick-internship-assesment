@@ -2,6 +2,8 @@
 
 A full-stack web application for tracking personal income and expenses, built with the MERN stack (MongoDB, Express.js, React, Node.js).
 
+🔗 **Live Demo:** [https://yardstick-internship-assesment.onrender.com/](https://yardstick-internship-assesment.onrender.com/)
+
 ![Personal Finance Tracker Screenshot](./screenshots/app-screenshot.png)
 
 ## Features

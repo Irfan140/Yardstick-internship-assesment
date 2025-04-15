@@ -43,8 +43,8 @@ A full-stack web application for tracking personal income and expenses, built wi
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
-cd expense-tracker
+git clone https://github.com/Irfan140/Yardstick-internship-assesment.git
+cd Yardstick-internship-assesment
 ```
 
 2. Install server dependencies:
@@ -61,15 +61,15 @@ npm install
 
 4. Configure environment variables:
 
-Create a `.env` file in the server directory:
+Create and setup a `.env` file in the server directory:
 ```env
-PORT=5001
-MONGO_URI=mongodb://localhost:27017/expense-tracker
+PORT=
+MONGO_URI=
 ```
 
-Create a `.env` file in the client directory:
+Create and setup a `.env` file in the client directory:
 ```env
-REACT_APP_API_URL=http://localhost:5001/api
+REACT_APP_API_URL=
 ```
 
 ## Running the Application
@@ -89,14 +89,6 @@ npm start
 ```
 
 The application will be available at `http://localhost:3000`
-
-## API Endpoints
-
-### Transactions
-- `GET /api/transactions` - Get all transactions
-- `POST /api/transactions` - Add a new transaction
-- `DELETE /api/transactions/:id` - Delete a transaction
-- `GET /api/transactions/stats` - Get transaction statistics
 
 ## Data Models
 
@@ -142,25 +134,7 @@ The application will be available at `http://localhost:3000`
 - Responsive chart sizing
 - Currency formatting
 
-## Contributing
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## Future Enhancements
-
-- User authentication and authorization
-- Multiple currency support
-- Data export/import functionality
-- Budget setting and tracking
-- Recurring transactions
-- Transaction search and filtering
-- Category management
-- Monthly/yearly reports
-- Mobile app version
 
 ## License
 
